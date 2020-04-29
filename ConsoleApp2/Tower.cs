@@ -57,13 +57,6 @@ namespace ConsoleApp2
             {
                 Pins[i].Draw();
             }
-
-            //рисуем все кольца
-            //for (int i = 0; i < Height; i++)
-            //{
-            //    Rings[i].Draw(1, DownPinLine-i);
-            //}
-
         }
 
         private static Random _random = new Random();
